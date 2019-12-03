@@ -1,0 +1,11 @@
+{   
+    "version": "0.1",
+    "author": { 
+        "name" : "Michael Wood",
+        "email" : "undefined@michaelwood.dev",
+        "url" : "http://michaelwood.dev/"
+    },
+    "scripts": {
+        "release": "standard-version"
+    }
+}

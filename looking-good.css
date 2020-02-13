@@ -9,6 +9,13 @@ body,html{
     background: linear-gradient(135deg,  #000000 0%,#3a3a3a 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#3a3a3a',GradientType=1 );
 }
+.light-gradient{
+    background: #000000;
+    background: -moz-linear-gradient(135deg, #dedede 0%,#757575 100%);
+    background: -webkit-linear-gradient(135deg, #dedede 0%,#757575 100%);
+    background: linear-gradient(135deg, #dedede 0%,#757575 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dedede', endColorstr='#757575',GradientType=1 );
+}
 .responsive-video {
     position: relative;
     padding-bottom: 53.5%;
@@ -27,4 +34,42 @@ body,html{
 
 .roboto-slab{
     font-family: 'Roboto Slab', serif;
+}
+
+/* Bootstap Extend - Negative Margins */
+.mt--1{
+    margin-top: -0.25em!important;
+}
+.mt--2{
+    margin-top: -0.5em!important;
+}
+.mt--3{
+    margin-top: -0.75em!important;
+}
+.mt--4{
+    margin-top: -1em!important;
+}
+.mt--5{
+    margin-top: -1.25em!important;
+}
+.mt--6{
+    margin-top: -1.50em!important;
+}
+.mt--7{
+    margin-top: -1.75em!important;
+}
+.mt--8{
+    margin-top: -2em!important;
+}
+.mt--9{
+    margin-top: -2.25em!important;
+}
+.mt--10{
+    margin-top: -2.5em!important;
+}
+.mt--11{
+    margin-top: -2.75em!important;
+}
+.mt--12{
+    margin-top: -3em!important;
 }
